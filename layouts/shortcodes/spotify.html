@@ -1,0 +1,22 @@
+{{- $url := .Get 0 -}}
+{{- $type := "" -}}
+{{- $id := "" -}}
+{{- if findRE "open\\.spotify\\.com/(track|album|playlist|episode|show)/([a-zA-Z0-9]+)" $url -}}
+  {{- $parts := split (replaceRE ".*open\\.spotify\\.com/" "" $url) "/" -}}
+  {{- $type = index $parts 0 -}}
+  {{- $idRaw := index $parts 1 -}}
+  {{- $id = replaceRE "\\?.*" "" $idRaw -}}
+{{- else -}}
+  {{- $type = .Get 0 -}}
+  {{- $id = .Get 1 -}}
+{{- end -}}
+<iframe
+  style="border-radius:12px"
+  src="https://open.spotify.com/embed/{{ $type }}/{{ $id }}?utm_source=generator"
+  width="100%"
+  height="{{ cond (eq $type "track") 152 352 }}"
+  frameborder="0"
+  allowfullscreen=""
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy">
+</iframe>
