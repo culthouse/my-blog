@@ -1,6 +1,6 @@
 baseURL = "https://culthouse.github.io/my-blog/"
 languageCode = "ja"
-title = "My Blog"
+title = "Culthouse Liminal"
 theme = "PaperMod"
 
 [params]
