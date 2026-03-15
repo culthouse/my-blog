@@ -7,3 +7,10 @@ title = "Culthouse Liminal"
 
 [params]
   dateFormat = "2006年1月2日"
+
+[params.author]
+  name = "culthouse"
+  links = [
+    { x-twitter = "https://x.com/culthouse" },
+    { bluesky = "https://bsky.app/profile/culthouse.bsky.social" },
+  ]

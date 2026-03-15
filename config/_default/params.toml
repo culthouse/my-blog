@@ -1,6 +1,6 @@
 # -- Theme Options --
-colorScheme = "congo"
-defaultAppearance = "light"
+colorScheme = "sapphire"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
 
 defaultThemeColor = "#FFFFFF"
@@ -13,7 +13,7 @@ enableImageWebp = true
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "basic"
+  layout = "hybrid"
   showTitle = true
 
 [footer]
@@ -23,7 +23,7 @@ fingerprintAlgorithm = "sha256"
   showScrollToTop = true
 
 [homepage]
-  layout = "page"
+  layout = "profile"
   showRecent = true
   recentLimit = 5
 
@@ -31,18 +31,18 @@ fingerprintAlgorithm = "sha256"
   showDate = true
   showDateUpdated = false
   showAuthor = true
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showHeadingAnchors = true
   showPagination = true
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   showWordCount = false
 
 [list]
   showBreadcrumbs = false
-  showSummary = false
+  showSummary = true
   showTableOfContents = false
   groupByYear = true
   paginationWidth = 1
