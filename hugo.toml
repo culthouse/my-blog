@@ -1,0 +1,17 @@
+baseURL = "https://culthouse.github.io/my-blog/"
+languageCode = "ja"
+title = "My Blog"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 2
