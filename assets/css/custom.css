@@ -1,0 +1,11 @@
+/* ヘッダーのサイトタイトルを強調 */
+header.print\:hidden nav > div:first-child a {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em;
+  color: rgb(var(--color-primary-400)) !important;
+}
+
+header.print\:hidden nav > div:first-child a:hover {
+  color: rgb(var(--color-primary-300)) !important;
+}

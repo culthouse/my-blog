@@ -9,8 +9,10 @@ title = "Culthouse Liminal"
   dateFormat = "2006年1月2日"
 
 [params.author]
-  name = "culthouse"
+  name = "ymd"
+  image = "img/b336079e1608d534d62f9351323b7e0b.jpg"
   links = [
     { x-twitter = "https://x.com/culthouse" },
     { bluesky = "https://bsky.app/profile/culthouse.bsky.social" },
+    { discord = "https://discord.com/users/culthouse" },
   ]
