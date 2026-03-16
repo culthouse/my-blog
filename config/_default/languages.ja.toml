@@ -10,6 +10,7 @@ title = "Culthouse Liminal"
 
 [params.author]
   name = "ymd"
+  headline = "心を奪う感覚-SENTATION- 闇にひとつ 流れてる"
   image = "img/b336079e1608d534d62f9351323b7e0b.jpg"
   links = [
     { x-twitter = "https://x.com/culthouse" },
